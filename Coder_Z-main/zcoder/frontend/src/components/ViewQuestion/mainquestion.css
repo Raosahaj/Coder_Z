@@ -1,0 +1,92 @@
+.main {
+    height: fit-content;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.main-desc {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.info>p {
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.info>p>span {
+    color: var(--text-muted);
+    margin: 0 5px;
+}
+
+.arrow>.MuiSvgIcon-root {
+    font-size: 5rem;
+    color: var(--border-color);
+}
+
+.all-options>.MuiSvgIcon-root {
+    color: var(--text-primary);
+    font-size: 20px;
+    margin: 3px 0;
+}
+
+.comments {
+    margin: 10px 0;
+    width: 90%;
+    margin-left: auto;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.comment>p {
+    margin: 10px 0;
+    color: var(--text-primary);
+}
+
+.comment>p>span {
+    padding: 3px;
+    background-color: var(--accent-light);
+    color: var(--accent-primary);
+    border-radius: 2px;
+}
+
+.comments>p {
+    margin-left: -35px;
+    margin-top: 20px;
+    font-size: small;
+    cursor: pointer;
+    color: var(--text-muted);
+}
+
+.comments>p:hover {
+    color: var(--accent-primary);
+}
+
+.ask-button,
+.main-answer>button {
+    padding: 10px 20px;
+    background-color: var(--accent-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:hover {
+    background-color: var(--accent-hover) !important;
+}
